@@ -29,7 +29,12 @@ class Settings(BaseSettings):
     API_V1_PREFIX: str = "/api/v1"
 
     # ── CORS ──────────────────────────────────────────────
-    CORS_ORIGINS: list[str] = ["http://localhost:5173", "http://localhost:3000", "http://localhost:8080"]
+    CORS_ORIGINS: list[str] = [
+        "http://localhost:5173",
+        "http://localhost:3000",
+        "http://localhost:8080",
+        "https://leaf-disease-backend-8t8p.onrender.com",
+    ]
 
     # ── Groq AI ───────────────────────────────────────────
     GROQ_API_KEY: str = ""

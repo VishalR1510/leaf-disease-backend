@@ -23,6 +23,12 @@ uvicorn app.main:app --reload --port 8000
 
 ## API Endpoints
 
+### Base URLs
+- **Development**: `http://localhost:8000`
+- **Production**: `https://leaf-disease-backend-8t8p.onrender.com`
+
+### Available Endpoints
+
 | Method | Path | Description |
 |--------|------|-------------|
 | `GET` | `/health` | Health check |
@@ -31,8 +37,10 @@ uvicorn app.main:app --reload --port 8000
 ## Interactive Docs
 
 Once the server is running, visit:
-- **Swagger UI**: [http://localhost:8000/docs](http://localhost:8000/docs)
-- **ReDoc**: [http://localhost:8000/redoc](http://localhost:8000/redoc)
+- **Development Swagger UI**: [http://localhost:8000/docs](http://localhost:8000/docs)
+- **Development ReDoc**: [http://localhost:8000/redoc](http://localhost:8000/redoc)
+- **Production Swagger UI**: [https://leaf-disease-backend-8t8p.onrender.com/docs](https://leaf-disease-backend-8t8p.onrender.com/docs)
+- **Production ReDoc**: [https://leaf-disease-backend-8t8p.onrender.com/redoc](https://leaf-disease-backend-8t8p.onrender.com/redoc)
 
 ## Environment Variables
 
