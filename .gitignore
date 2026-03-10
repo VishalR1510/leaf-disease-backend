@@ -1,0 +1,59 @@
+# ── Virtual Environment ───────────────────────────────
+venv/
+
+# ── Environment Variables (sensitive) ─────────────────
+.env
+.env.local
+.env.production
+.env.*.local
+
+# ── Python Cache ──────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Explicit pycache paths in this project:
+app/__pycache__/
+app/core/__pycache__/
+app/api/__pycache__/
+app/api/v1/__pycache__/
+app/api/v1/endpoints/__pycache__/
+app/models/__pycache__/
+app/services/__pycache__/
+app/utils/__pycache__/
+app/dependencies/__pycache__/
+tests/__pycache__/
+
+# ── Byte-compiled / Optimized files ───────────────────
+*.pyc
+
+# ── Distribution / Packaging ─────────────────────────
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ── IDE / Editor ─────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS Files ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Logs ─────────────────────────────────────────────
+*.log
+logs/
+
+# ── Testing ──────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Misc ─────────────────────────────────────────────
+*.bak
+*.tmp

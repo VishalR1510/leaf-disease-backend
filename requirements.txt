@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+opencv-python
+python-multipart
+groq
+python-dotenv
+pydantic
+pydantic-settings
+loguru
+numpy
+tensorflow
