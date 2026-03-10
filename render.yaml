@@ -1,12 +1,7 @@
 services:
   - type: web
     name: leaf-disease-backend
-    runtime: python
-    runtimeVersion: 3.12.7
-    plan: free
+    env: python
+    pythonVersion: 3.12.7
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
-    healthCheckPath: /api/v1/analyze-leaf
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.12.7
