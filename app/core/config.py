@@ -34,6 +34,7 @@ class Settings(BaseSettings):
         "http://localhost:3000",
         "http://localhost:8080",
         "https://leaf-disease-backend-8t8p.onrender.com",
+        "https://leaf-disease-frontend.vercel.app",
     ]
 
     # ── Groq AI ───────────────────────────────────────────
